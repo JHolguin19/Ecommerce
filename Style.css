@@ -59,7 +59,7 @@ body {
     align-items: center;
     justify-content: space-between; 
     padding: 20px 80px;
-    background: #E3E6F3;
+    background: rgba(red, green, blue, alpha);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0,);
 }
 
@@ -67,6 +67,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 999;
 }
 
 #navbar li{
@@ -79,14 +80,14 @@ body {
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-    color: #222;
+    color: #7a7a7a;
     position: relative;
     transition: 0.3s ease;
 }
 
 #navbar li a:hover,
 #navbar li a.active{
-    color: rgb(139, 4, 4);
+    color: #214bbe;
 }
 
 #navbar li a.active::after,
@@ -94,10 +95,59 @@ body {
     content: "";
     width: 30%;
     height: 2px;
-    background: #088178;
+    background: #000000;
     position: absolute;
     bottom: -4px;
     left: 1px;
 
 }
 
+/*Home PAge*/
+
+#hero{
+  background-image: url("imgenes/3.jpg");
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 32% right 0;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  
+}
+
+#hero h4{
+  padding-bottom: 15px;  
+}
+
+#hero h1{
+  color: #222;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0,);
+  padding-bottom: 25px;
+}
+
+#hero h2{
+  color: #222;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0,);
+  padding-bottom: 35px;
+}
+#hero p{
+  color: #222;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0,);
+  padding-bottom: 45px;
+  font-weight: 800  ;
+}
+
+#hero button{
+  background-image: url("imgenes/button.png");
+  background-color: transparent;
+  color: #f2f0f0;
+  border: 0;
+  padding: 14px 80px 14px 65px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  font-weight: 600;
+  font-size: 15px;
+}
