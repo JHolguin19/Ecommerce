@@ -15,10 +15,49 @@
             <ul id="navbar">
                 <li><a class="active" href="index.html">Home</a></li>
                 <li><a href="shop.html">Shop</a></li>
-                <li><a href="blog.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.htl">About us</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <div class="container-icon">
+                    <div class="container-cart-icon">
+                        <li id="lg-bag"><a><i class="far fa-shopping-bag icon-cart" ></i></a></li>  
+                        <div class="count-products">
+                            <span id="contador-productos">0</span>
+                        </div>  
+                    </div>
+                    <div class="container-cart-products hidden-cart">
+                        <div class="row-product hidden">
+                            <div class="cart-product">
+                                <div class="info-cart-product">
+                                    <span class="cantidad-producto-carrito">1</span>
+                                    <p class="titulo-producto-carrito">Zapatos Nike</p>
+                                    <span class="precio-producto-carrito">$80</span>
+                                </div>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke-width="1.5"
+                                    stroke="currentColor"
+                                    class="icon-close"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        d="M6 18L18 6M6 6l12 12"
+                                    />
+                                </svg>
+                            </div>
+                        </div>
+    
+                        <div class="cart-total hidden">
+                            <h3>Total:</h3>
+                            <span class="total-pagar">$200</span>
+                        </div>
+                        <p class="cart-empty">El carrito está vacío</p>
+                    </div>
+                </div>
+                </div>
                 <a href="#" id="close"><i class="far fa-times"></i></a>
                 
             </ul>
@@ -83,9 +122,10 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$78</h4>
+                    <h4 class="price">$78</h4>
+                    <button class="normal añadircarrito">Añadir Carrito</button>
                 </div>
-                <a href="#"><i class="fal fa-shopping-cart cart" ></i></a>
+                <a href="#"><i class="fal fa-shopping-cart cart añadircarrito" ></i></a>
             </div>
             <div class="pro">
                 <img src="imgenes/products/f2.jpg" alt="">
@@ -99,7 +139,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$78</h4>
+                    <h4 class="price">$78</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart" ></i></a>
             </div>
@@ -115,7 +155,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$78</h4>
+                    <h4 class="price">$78</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart" ></i></a>
             </div>
@@ -131,7 +171,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$78</h4>
+                    <h4 class="price">$78</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart" ></i></a>
             </div>
@@ -147,7 +187,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$78</h4>
+                    <h4 class="price">$78</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart" ></i></a>
             </div>
@@ -163,7 +203,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$78</h4>
+                    <h4 class="price">$78</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart" ></i></a>
             </div>
@@ -179,7 +219,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$78</h4>
+                    <h4 class="price">$78</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart" ></i></a>
             </div>
@@ -195,7 +235,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$78</h4>
+                    <h4 class="price">$78</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart" ></i></a>
             </div>
@@ -227,7 +267,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$78</h4>
+                    <h4 class="price">$78</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart" ></i></a>
             </div>
@@ -243,7 +283,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$78</h4>
+                    <h4 class="price">$78</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart" ></i></a>
             </div>
@@ -259,7 +299,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$78</h4>
+                    <h4 class="price">$78</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart" ></i></a>
             </div>
@@ -275,7 +315,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$78</h4>
+                    <h4 class="price">$78</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart" ></i></a>
             </div>
@@ -291,7 +331,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$78</h4>
+                    <h4 class="price">$78</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart" ></i></a>
             </div>
@@ -307,7 +347,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$78</h4>
+                    <h4 class="price">$78</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart" ></i></a>
             </div>
@@ -323,7 +363,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$78</h4>
+                    <h4 class="price">$78</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart" ></i></a>
             </div>
@@ -339,7 +379,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <h4>$78</h4>
+                    <h4 class="price">$78</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart" ></i></a>
             </div>
