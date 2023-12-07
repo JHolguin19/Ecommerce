@@ -183,11 +183,11 @@ header{
   right: 0;
 
   background-color: #fff;
-  width: 400px;
+  width: 500px;
   z-index: 1;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
   border-radius: 10px;
-  
+  font-size: 20px;
 }
 
 .cart-product{
@@ -207,18 +207,19 @@ header{
 }
 
 .titulo-producto-carrito{
-  font-size: 20px;
+  font-size: 15px;
+  margin: 0;
 }
 
 .precio-producto-carrito{
   font-weight: 700;
-  font-size: 20px;
+  font-size: 15px;
   margin-left: 10px;
 }
 
 .cantidad-producto-carrito{
   font-weight: 400;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .icon-close{
@@ -898,3 +899,7 @@ footer .copyright{
 }
 
 }
+
+
+/*Pagina del Carrio*/
+
