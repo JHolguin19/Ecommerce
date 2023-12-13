@@ -915,6 +915,21 @@ footer .copyright{
   width: 100%;
 }
 
+.count-products {
+  top: -265px;
+  right: 75px;
+ 
+ }
+ 
+ .container-cart-products {
+     
+     top: -240px;
+     right: 25px;
+     width: 370px;
+     font-size: 10px;
+
+ }
+
 }
 
 

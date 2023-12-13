@@ -2,19 +2,30 @@ const bar = document.getElementById('bar');
 
 const nav =  document.getElementById('navbar');
 
-const close = document.getElementById('close')
+const close = document.getElementById('close');
+
+const closeCountp = document.querySelector('.count-products');
 
 if (bar){
     bar.addEventListener('click', ()=>{
-        nav.classList.add('active')
+        nav.classList.add('active');
+		closeCountp.classList.add('hidden');
     })
 }
 
 if (close){
     close.addEventListener('click', ()=>{
-        nav.classList.remove('active')
+        nav.classList.remove('active');
+		closeCountp.classList.remove('hidden');
     })
 }
+
+
+
+
+
+
+
 
 
 const btnCart = document.querySelector('.container-cart-icon');
