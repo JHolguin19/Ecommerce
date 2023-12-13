@@ -830,6 +830,23 @@ footer .copyright{
 #newsletter .form {
     width: 70%;
 }
+
+.count-products {
+ top: -250px;
+ right: 125px;
+
+}
+
+.container-cart-products {
+    
+    top: -230px;
+    right: 25px;
+    width: 450px;
+    z-index: 1;
+    font-size: 15px;
+
+}
+
 }
 
 @media (max-width:477px){
