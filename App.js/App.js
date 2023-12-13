@@ -157,4 +157,7 @@ const saveLocal = () => {
 };
 
 
-
+window.addEventListener('load', () => {
+    allProducts = JSON.parse(localStorage.getItem("carrito")) || [];
+    showHTML();
+});
