@@ -21,13 +21,6 @@ if (close){
 }
 
 
-
-
-
-
-
-
-
 const btnCart = document.querySelector('.container-cart-icon');
 const containerCartProducts = document.querySelector(
 	'.container-cart-products'
@@ -172,3 +165,33 @@ window.addEventListener('load', () => {
     allProducts = JSON.parse(localStorage.getItem("carrito")) || [];
     showHTML();
 });
+
+
+
+function recuperarp(){
+    return new Promise((resolve, reject) => {
+        fetch('../JSON/productos.json')
+        .then(response => {
+            if(!response.ok){
+                throw new Error("Error al cargar la Api");
+            }
+
+            return recuperarp();
+        })
+        .then(data => resolve(data))
+        .catch(error => reject(error));
+    });
+};
+
+
+async function main(){
+    try{
+        const informacionp = await recuperarp()
+        console.log(informacionp)
+    }catch(error){
+        console.error("Surgio un error:", error)
+
+    }
+}
+
+main();
