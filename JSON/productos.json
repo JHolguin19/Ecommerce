@@ -2,48 +2,56 @@
     {
     "marca":"Adidas",    
     "nombre": "Cartoon Astronaunt T-Shirt",
-    "precio":78
+    "precio":78,
+    "imagen": "../imgenes/products/f1.jpg"
     },
 
     {
         "marca":"Nike",    
         "nombre": "Hoddie",
-        "precio":84
+        "precio":84,
+        "imagen": "../imgenes/products/f2.jpg"
         },
 
     {
         "marca":"Adidas",    
         "nombre": "Camisa Veraniega",
-        "precio":42
+        "precio":42,
+        "imagen": "../imgenes/products/f3.jpg"
     },
 
     {
         "marca":"Puma",    
         "nombre": "Camisa de Flores Rojas",
-        "precio":78
+        "precio":78,
+        "imagen": "../imgenes/products/f4.jpg"
         },
 
     {
         "marca":"Diadora",    
         "nombre": "Camisa de Flores Rojas",
-        "precio":78
+        "precio":78,
+        "imagen": "../imgenes/products/f5.jpg"
         },
 
     {
         "marca":"Adidas",    
         "nombre": "Chamarra Doble Color",
-        "precio":60
+        "precio":60,
+        "imagen": "../imgenes/products/f6.jpg"
     },
     {
         "marca":"Adidas",    
         "nombre": "Pantalon Unisex",
-        "precio":100
+        "precio":100,
+        "imagen": "../imgenes/products/f7.jpg"
     },
         
     {
         "marca":"Velez",    
         "nombre": "Blusa Rosada",
-        "precio":50
+        "precio":50,
+        "imagen": "../imgenes/products/f8.jpg"
     }
 
 
